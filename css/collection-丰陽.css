@@ -1,0 +1,78 @@
+
+
+/*圖片排版*/
+article img{
+  display: block;
+  margin-top: 80px;
+}
+
+
+/*左區圖排版*/
+.left{
+  float: left;
+  padding-left: 156px;
+  padding-right: 40px;
+
+}
+
+/*右區塊圖排版*/
+.right{
+  float: left;
+
+  /*padding-right: 106px;*/
+  padding-left: 40px;
+  /*border-radius:10px;*/
+}
+@media screen and (max-width: 1280px){
+  article img{
+    display: block;
+    margin-top: 50px;
+  }
+
+  .left{
+    float: left;
+    padding-left: 171px;
+    padding-right: 25px;
+  }
+
+  /*右區塊圖排版*/
+  .right{
+    float: left;
+    padding-left: 25px;
+    /*border-radius:10px;*/
+  }
+}
+@media screen and (max-width: 940px){
+  .left{
+    /*float: left;*/
+    padding-left: 85px;
+    /*padding-right: 25px;*/
+  }
+}
+
+@media screen and (max-width: 768px){
+  .left{
+    padding-left: 103px;
+    padding-right: 0;
+
+  }
+  .right{
+    padding-left: 103px;
+    padding-right: 0;
+  }
+
+}
+@media screen and (max-width:480px){
+  .left{
+    padding: 0;
+  }
+  .right{
+    padding: 0;
+  }
+  .left img{
+    margin-left: 60px;
+  }
+  .right img{
+    margin-left: 60px;
+  }
+}

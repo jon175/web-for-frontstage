@@ -1,0 +1,27 @@
+body{
+  max-width: 1280px;
+  overflow: hidden;
+  margin: auto;
+}
+li img{
+  position: relative;
+}
+.home-fong{
+  width: 320px;
+  height: 320px;
+  border-radius: 100%;
+  position: absolute;
+  left:480px;
+  top:160px;
+  /*border: 1px solid white;*/
+}
+.home-yang {
+  width: 320px;
+  height: 320px;
+  border-radius: 100%;
+  position: absolute;
+  left: 3040px;
+  top:160px;
+  /*border: 1px solid white;*/
+
+}

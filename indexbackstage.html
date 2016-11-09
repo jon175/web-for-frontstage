@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello Firebase</title>
+    <link rel="stylesheet" href="css/stylesheetbackstage.css">
+</end>
+
+<body>
+<script src="jquery-3.1.1.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/3.5.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/3.5.2/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/3.5.2/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/3.6.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDLH622Tu53QXsOIYuWsoPZTtV3JFZbpVg",
+    authDomain: "fong-yang-backstage.firebaseapp.com",
+    databaseURL: "https://fong-yang-backstage.firebaseio.com",
+    storageBucket: "fong-yang-backstage.appspot.com",
+    messagingSenderId: "438051366223"
+  };
+  firebase.initializeApp(config);
+</script>
+
+<div class="example-chat l-demo-container">
+  <header>Firebase Chat Demo</header>
+  <div class="eample-chat-toolbar">
+     <label for="nameinput">UserName:</label>
+     <input type="text" id="nameinput" placeholder="entera username...">
+   </div><!-- eample-chat-toolbar -->
+
+   <ul id="example-messages" class="example-chat-messages"></ul>
+
+   <footer>
+     <input type="text" id="messageInput" placeholder="Type a message../">
+     <input type="submit" value="Submit">
+   </footer>
+</div><!-- example-chat l-demo-container -->
+<body>

@@ -1,0 +1,149 @@
+/*整體總設定*/
+body{
+  font-family: 微軟正黑體 Black;
+  font-weight: regular;
+  margin: 0;
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #eeeeee;
+  //overflow-y:hidden;
+  position:relative;
+}
+
+/*logo設定*/
+header img{
+  float:left;
+  margin-right: 66px;
+  margin-left: 0px;
+}
+
+/*圖片圓角*/
+img{
+  border-radius:10px;
+}
+
+/*導覽列設定*/
+header{
+  position: relative;
+}
+span.menu{
+  display: none;
+  position: absolute;
+  padding: 0 15px;
+  top: 15px;
+  right: 10px;
+}
+nav a{
+  color:#282C34;
+  text-decoration:none;
+  padding: 15px;
+}
+
+nav{
+  display: block;
+  float:right;
+  padding-right: 45px;
+}
+
+ul{
+  margin: 0px;
+  padding: 0px;
+  display: block;
+}
+
+li{
+  font-size: 20px;
+  list-style: none;
+  float:left;
+  margin-top: 86px;
+}
+
+/*畫線of導覽列*/
+header div{
+  border-bottom: 1px solid #282C34;
+}
+
+/*控制圖片and footer之間的距離*/
+.space{
+  margin-top: 80px;
+}
+
+/*footer版控*/
+footer{
+  border-top: 1px solid #282C34;
+  text-align:center;
+  height: 124px;
+}
+
+/*footer 內文*/
+footer p{
+  font-size: 16px;
+  margin-top: 51.5px;
+}
+
+/*facbook icon設定*/
+footer img{
+  float: right;
+  margin-right: 214px;
+  margin-top: -50px;
+}
+
+/*清除*/
+.clear:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.switch{
+  background-color:#797979;
+  color:white;
+}
+@media screen and (max-width: 1280px){
+
+}
+@media screen and (max-width: 940px){
+  body{
+    max-width: 768px;
+  }
+  .space{
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 768px){
+  body{
+    max-width: 480px;
+  }
+}
+@media screen and (max-width: 768px){
+  span.menu{
+    padding-right: 60px;
+    top: 67px;
+    font-size: 30px;
+    display: block;
+  }
+  span.menu:hover{
+    cursor: pointer;
+  }
+  nav ul{
+    width: 100%;
+    /*margin-left: 50%;*/
+    text-align: center;
+    /*left:-50%;*/
+    display: none;
+  }
+  nav{
+    padding: 0;
+    padding-top: 100px;
+    float: none;
+  }
+  nav li{
+    width: 100%;
+    margin: 15px;
+  }
+  nav a{
+    margin: 0;
+  }
+
+}

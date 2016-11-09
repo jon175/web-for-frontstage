@@ -1,0 +1,65 @@
+
+.piclec{
+  padding-top: 80px;
+  margin-left: 74px;
+}
+.piclec img{
+  float: left;
+}
+.piclec div{
+  display: block;
+  padding-top: 54px;
+  padding-bottom: 54px;
+  margin-left: 40px;
+  float: left;
+}
+
+@media screen and (max-width: 940px){
+  .piclec{
+    margin: 0;
+    padding-top: 80px;
+  }
+  .piclec img{
+    width: 50%;
+    float: left;
+  }
+  .piclec div h2{
+    padding-left: 40px;
+  }
+  .piclec div p{
+    padding-left: 40px;
+  }
+  .piclec div{
+    display: block;
+    margin: 0;
+    width: 50%;
+    float: left;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .piclec{
+    padding-top: 50px;
+  }
+  .piclec div{
+    display: block;
+    margin: 0;
+    width: 50%;
+    float: left;
+    padding: 0;
+  }
+
+}
+@media screen and (max-width:480px){
+  .piclec div{
+    display: block;
+    margin: 0;
+    width: 100%;
+    float: none;;
+    padding-bottom: 50px;
+  }
+  .piclec img{
+    width: 100%;
+    float: none;;
+  }
+}

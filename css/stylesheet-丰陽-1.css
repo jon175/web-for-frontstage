@@ -1,0 +1,30 @@
+
+/*橢圓置中*/
+.banner{
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top:50px;
+  padding-bottom: 50px;
+}
+@media screen and (max-width: 1280px){
+  .banner img{
+    width: 940px;
+  }
+}
+@media screen and (max-width: 940px){
+  .banner img{
+    width: 768px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .banner img{
+    width: 480px;
+  }
+}
+@media screen and (max-width:480px){
+  .banner img{
+    width: 320px;
+  }
+}
