@@ -23,5 +23,90 @@ li img{
   left: 3040px;
   top:160px;
   /*border: 1px solid white;*/
+}
 
+@media screen and (max-width: 1280px){
+  body{
+    max-width: 940px;
+    overflow: hidden;
+    margin: auto;
+  }
+  li img{
+    position: relative;
+  }
+  .home-fong{
+    width: 235px;
+    height: 235px;
+    border-radius: 100%;
+    position: absolute;
+    left:352.5px;
+    top:117.5px;
+    /*border: 1px solid white;*/
+  }
+  .home-yang {
+    width: 235px;
+    height: 235px;
+    border-radius: 100%;
+    position: absolute;
+    left: 2232.5px;
+    top:117.5px;
+    /*border: 1px solid white;*/
+  }
+}
+
+@media screen and (max-width: 940px){
+  body{
+    max-width: 768px;
+    overflow: hidden;
+    margin: auto;
+  }
+  li img{
+    position: relative;
+  }
+  .home-fong{
+    width: 192px;
+    height: 192px;
+    border-radius: 100%;
+    position: absolute;
+    left:288px;
+    top:96px;
+    /*border: 1px solid white;*/
+  }
+  .home-yang {
+    width: 192px;
+    height: 192px;
+    border-radius: 100%;
+    position: absolute;
+    left: 1824px;
+    top:96px;
+    /*border: 1px solid white;*/
+  }
+}
+@media screen and (max-width: 768px){
+  body{
+    width: 480px;
+    overflow: auto;;
+    margin: auto;
+  }
+  li img{
+    position: relative;
+  }
+  .home-fong{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    position: absolute;
+    left:180px;
+    top:60px;
+    /*border: 1px solid white;*/
+  }
+  .home-yang {
+    width:120px;
+    height: 120px;
+    border-radius: 100%;
+    position: absolute;
+    left: 1140px;
+    top:60px;
+    /*border: 1px solid white;*/
+  }
 }
